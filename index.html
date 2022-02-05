@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> nothing here... </title>
+    <link rel="icon" type="image/x-icon" href="https://cdn131.picsart.com/348027902045211.png">
+    <style>
+        .bottom {
+            margin-top: 35vh;
+            text-align:center;
+        }
+        .center {
+            text-align: center;
+            display: block;
+              ;
+        }
+    </style>
+</head>
+<body>
+
+<div class="center">
+    <img src="https://cdn131.picsart.com/348027902045211.png">
+    <p style="color: black;";">nothing here...</p>
+    <p class="center" id="otuz">‎</p>
+
+<p class="center">
+<button type="button" onclick="kürek(1)">Komikliği aç</button>
+<button type="button" onclick="kürek(0)">Komikliği kapa</button>
+</p>
+
+</div>
+
+<div class="bottom">
+    <hr>
+<p><sub>LittleSenpai Inc. All rights doesn't really matter ©</sub></p>
+
+</div>
+
+
+<script>
+    function kürek(sw) {
+        var komik;
+        if (sw==0) {
+            komik = "‎"
+        } else {
+            komik= "31"
+        }
+        document.getElementById("otuz").textContent = komik
+    }
+</script>
+
+
+
+</body>
+</html>
